@@ -1,0 +1,235 @@
+@charset "UTF-8";
+html, body, h1, h2, h3, h4, h5, h6, ul, ol, dl, dt, dd, li, fieldset, legend, img, b, strong {
+  margin: 0;
+  padding: 0;
+  /*	font-weight:normal;*/
+  /*font-size:16px;*/ }
+
+ul, ol, li {
+  list-style: none; }
+
+img, fieldset {
+  border: 0;
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+i, em {
+  font-style: normal; }
+
+/* 
+	声明混合
+ */
+.header {
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  background-color: #f2f2f2;
+  font-size: 12px; }
+  .header .w {
+    width: 1090px;
+    margin: 0 auto; }
+    .header .w > ul {
+      height: 28px; }
+    .header .w span {
+      border-left: 1px solid #ccc; }
+    .header .w ul li {
+      list-style: none;
+      display: inline-block;
+      margin-right: 10px; }
+      .header .w ul li a {
+        color: #6C6C6C;
+        text-decoration: none; }
+        .header .w ul li a:hover {
+          color: #ED145B; }
+    .header .w ul .r {
+      margin-right: 418px; }
+    .header .w ul .t a s {
+      width: 12px;
+      height: 11px;
+      float: left;
+      margin: 11px 2px 0 0;
+      background: url(http://a2.jmstatic.com/6af6d8c6b9b5ec16/header_sprites1.png) no-repeat; }
+    .header .w ul .k a {
+      color: #ED145B; }
+      .header .w ul .k a i {
+        width: 10px;
+        height: 16px;
+        float: left;
+        margin: 8px 5px 0 10px;
+        background: url(../images/phone.png) no-repeat;
+        /* background-color: #ed155b;*/ }
+    .header .w ul li:first-child a:hover {
+      color: #6C6C6C; }
+    .header .w ul .m .sub_nav {
+      width: 110px;
+      position: absolute;
+      background: #fff;
+      text-align: center;
+      z-index: 9;
+      display: none;
+      box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2); }
+      .header .w ul .m .sub_nav ul li {
+        height: 28px; }
+      .header .w ul .m .sub_nav ul li:first-child a:hover {
+        color: #ED145B; }
+    .header .w ul .m a {
+      position: relative; }
+    .header .w ul .m:hover .sub_nav {
+      display: block; }
+    .header .w ul .d .sub_nav {
+      width: 110px;
+      position: absolute;
+      background: #fff;
+      text-align: center;
+      z-index: 9;
+      display: none;
+      box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2); }
+      .header .w ul .d .sub_nav ul li {
+        height: 28px; }
+      .header .w ul .d .sub_nav ul li:first-child a:hover {
+        color: #ED145B; }
+    .header .w ul .d a {
+      position: relative; }
+    .header .w ul .d:hover .sub_nav {
+      display: block; }
+
+/*search开始*/
+.search {
+  width: 100%;
+  height: 110px;
+  /*background-color:pink;*/ }
+  .search .w {
+    width: 1090px;
+    margin: 0 auto; }
+    .search .w .logo {
+      float: left;
+      height: 85px;
+      margin-top: 13px; }
+    .search .w .center {
+      width: 536px;
+      height: 82px;
+      float: left;
+      margin-left: 124px;
+      padding-top: 28px; }
+      .search .w .center form {
+        width: 536px;
+        height: 38px;
+        line-height: 38px;
+        background-color: #ed145b; }
+        .search .w .center form .search {
+          width: 432px;
+          height: 30px;
+          line-height: 30px;
+          float: left;
+          border: 0;
+          margin-left: 4px;
+          margin-top: 3px;
+          margin-bottom: 4px;
+          outline: none; }
+        .search .w .center form button {
+          background-color: #ed145b;
+          border: 0;
+          width: 100px;
+          height: 38px;
+          line-height: 38px;
+          color: #fff;
+          font-size: 14px;
+          cursor: pointer;
+          float: right; }
+      .search .w .center div {
+        height: 18px;
+        line-height: 18px;
+        margin-top: 6px;
+        width: 446px;
+        font-size: 12px; }
+        .search .w .center div a {
+          display: inline;
+          width: 446px;
+          font-size: 12px;
+          line-height: 12px;
+          color: #999;
+          margin-right: 5px; }
+          .search .w .center div a:hover {
+            color: #ED145B; }
+        .search .w .center div s {
+          width: 1px;
+          height: 12px;
+          line-height: 12px;
+          background-color: #999;
+          display: inline-block; }
+    .search .w #car {
+      float: right;
+      width: 140px;
+      height: 34px;
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+      margin-top: 33px;
+      background-color: #fff;
+      border: 1px solid #e5e5e5;
+      cursor: pointer;
+      position: relative; }
+      .search .w #car a img {
+        float: left;
+        padding: 0 9px; }
+      .search .w #car a span {
+        font-size: 12px;
+        float: right;
+        background-color: #f8f8f8;
+        width: 86px;
+        height: 32px;
+        line-height: 32px;
+        text-align: center;
+        color: #666; }
+      .search .w #car #sub {
+        width: 300px;
+        height: 60px;
+        position: absolute;
+        top: 33px;
+        z-index: 2;
+        right: 0;
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        padding-top: 20px;
+        display: none;
+        /*	&:hover .sub{
+				  		display:block;
+				  	};*/ }
+        .search .w #car #sub span {
+          font-size: 14px;
+          height: 80px;
+          color: #666; }
+
+/*nav开始了*/
+.nav {
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  clear: both;
+  background: url(../images/nav.jpg) #000 repeat-x; }
+  .nav .w {
+    width: 1090px;
+    margin: 0 auto; }
+    .nav .w .txt li {
+      float: left; }
+      .nav .w .txt li a {
+        color: #fff;
+        font-size: 14px; }
+    .nav .w .txt li {
+      margin: 0 20px; }
+    .nav .w .txt li:first-child {
+      margin-left: 0px;
+      margin-right: 20px; }
+      .nav .w .txt li:first-child a {
+        background-color: #ED145B;
+        display: inline-block;
+        width: 108px;
+        text-align: center; }
+    .nav .w .tu li {
+      float: right;
+      margin-top: 4px;
+      margin-right: 10px;
+      overflow: hidden; }
